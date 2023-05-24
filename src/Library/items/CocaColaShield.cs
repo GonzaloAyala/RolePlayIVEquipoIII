@@ -1,19 +1,33 @@
 namespace RoleplayGame.Items
 {
     /// <summary>
-    /// Coca-Cola Shield. Una chapita de cocacola del tamaño de un plato y modificada para ser utilizada como un escudo.
+    /// Escudo Coca-Cola. Una chapita de cocacola del tamaño de un plato y 
+    /// modificada para ser utilizada como un escudo. 
+    /// Un artefacto mágico que crea piedras en los riñones del atacante.
     /// </summary>
-    public class CocaColaShield : IDefenseItem
+    public class CocaColaShield : IAttackItem, IDefenseItem
     {
         /// <summary>
-        /// El poder de defensa.
+        /// El poder de ataque
+        /// </summary>
+        /// <value></value>
+        public int AttackPower
+        {
+            get
+            {
+                return 10;
+            }
+        }
+
+        /// <summary>
+        /// El poder de defensa
         /// </summary>
         /// <value></value>
         public int DefensePower
         {
             get
             {
-                return 5;
+                return 12;
             }
         }
 
