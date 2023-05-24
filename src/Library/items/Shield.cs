@@ -11,7 +11,7 @@ namespace RoleplayGame.Items
         }
         public override string ToString()
         {
-            return "Tower Shield";
+            return "Shield";
         }
     }
 }
