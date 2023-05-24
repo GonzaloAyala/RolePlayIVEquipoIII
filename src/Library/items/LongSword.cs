@@ -9,5 +9,9 @@ namespace RoleplayGame.Items
                 return  25;
             } 
         }
+        public override string ToString()
+        {
+            return "Tower Shield";
+        }
     }
 }
