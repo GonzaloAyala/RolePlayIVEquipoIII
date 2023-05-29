@@ -7,6 +7,16 @@ namespace RoleplayGame.Items
     {
         Magic = 1,
         Robes = 2,
+        TowerShield =3,
+        Sling = 4,
+        Shield= 5,
+        LongSword= 6,
+        CocaColaShield = 7,
+        LeatherArmor = 8,
+        ChainMail = 9,
+        Buckler = 10,
+        Club =11,
+    
     }
 
     /// <summary>
@@ -25,6 +35,16 @@ namespace RoleplayGame.Items
             {
                 case ItemType.Magic: return new Magic();
                 case ItemType.Robes: return new Robes();
+                case ItemType.TowerShield: return new TowerShield();
+                case ItemType.Sling: return new Sling();
+                case ItemType.Shield: return new Shield();
+                case ItemType.LongSword: return new LongSword();
+                case ItemType.CocaColaShield: return new CocaColaShield();
+                case ItemType.LeatherArmor: return new LeatherArmor();
+                case ItemType.ChainMail: return new ChainMail();
+                case ItemType.Buckler: return new Buckler();
+                case ItemType.Club: return new Club();
+
 
                 default: return null;
             }
