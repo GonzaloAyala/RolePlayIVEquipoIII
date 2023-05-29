@@ -1,17 +1,18 @@
 namespace RoleplayGame.Items
 {
-    public class LongSword: IAttackItem
+    public class Gauntlet_power: IAttackItem
     {
+        
         public int AttackPower 
         {
             get
             {
-                return  25;
+                return  0;
             } 
         }
         public override string ToString()
         {
-            return "Long Sword";
+            return "Gauntlet Power";
         }
     }
 }
