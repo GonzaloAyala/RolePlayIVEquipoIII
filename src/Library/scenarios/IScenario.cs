@@ -8,6 +8,7 @@ namespace RoleplayGame.Scenarios
         /// <summary>
         /// Creación de los elementos del escenario.
         /// </summary>
+        
         void Setup();
 
         /// <summary>
